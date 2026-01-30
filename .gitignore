@@ -2,3 +2,7 @@ csv/
 .venv/
 .pytest_cache/
 */__pycache__/
+*.spec
+build/
+*.egg-info/
+dist/
