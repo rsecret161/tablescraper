@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tablescraper"
+version = "0.1.0"
+description = "Scrape HTML tables and save to file or DB (GUI + CLI)"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["tables", "scrape", "pandas", "tkinter"]
+dependencies = [
+    "pandas>=1.5",
+    "openpyxl>=3.0",
+    "lxml",
+    "urllib3"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
